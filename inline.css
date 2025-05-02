@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study of Web Technology Basics</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; line-height: 1.6; margin: 0; padding: 0;">
+    <h1 style="text-align:center; color: #2c3e50; font-size: 36px; padding-top: 20px;">Assignment 1</h1>
+    <h2 style="text-align:center; color: #2980b9; font-size: 28px;">Study of Web Technology Basics</h2>
+    <h5 style="text-align:center; color: #7f8c8d; font-size: 18px;">by Ruchi Patel</h5>
+
+    <div style="margin: 20px auto; max-width: 900px; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="color: #2c3e50; font-size: 24px;">1. HTML (HyperText Markup Language)</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            HTML is the standard markup language used to create web pages. It structures the content using tags such as &lt;h1&gt;, &lt;p&gt;, &lt;div&gt;, etc.
+        </p>
+
+        <h2 style="color: #2c3e50; font-size: 24px;">2. CSS (Cascading Style Sheets)</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            CSS is used to define the style of a web page including layout, colors, and fonts. It can be included within HTML or as an external file.
+        </p>
+
+        <h2 style="color: #2c3e50; font-size: 24px;">3. JavaScript</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            JavaScript is a scripting language used to add interactivity to web pages such as validating forms, creating dynamic content, etc.
+        </p>
+
+        <h2 style="color: #2c3e50; font-size: 24px;">4. Backend Web Technologies</h2>
+        <p style="font-size: 18px; line-height: 1.8;">Backend languages are used to handle the server-side logic of web applications:</p>
+        <ul style="font-size: 18px; line-height: 1.8; padding-left: 20px;">
+            <li><strong>PHP</strong> – A server-side scripting language mainly used for web development.</li>
+            <li><strong>Python</strong> – Used in web frameworks like Django and Flask.</li>
+            <li><strong>Node.js</strong> – Allows JavaScript to run on the server side.</li>
+        </ul>
+
+        <h2 style="color: #2c3e50; font-size: 24px;">5. Database Technologies</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            Databases are used to store and manage data for web applications.
+        </p>
+        <ul style="font-size: 18px; line-height: 1.8; padding-left: 20px;">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+        </ul>
+
+        <h2 style="color: #2c3e50; font-size: 24px;">Conclusion</h2>
+        <p style="font-size: 18px; line-height: 1.8;">
+            Web technologies include a combination of frontend (HTML, CSS, JavaScript) and backend (PHP, Python, Node.js) tools that together create full-featured web applications.
+        </p>
+    </div>
+</body>
+</html>
