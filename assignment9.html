@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration</title>
+</head>
+<body>
+<h1 style="text-align:center;">Assignment 9</h1>
+<h2 style="text-align:center;">Employee Registration Form</h2>
+
+
+<fieldset style="width: 25%; margin: 0 auto;">
+    <form><br>
+        <label for="emp-name">Full Name:</label>
+        <input type="text" id="emp-name" name="emp-name"><br><br>
+
+        <label for="emp-email">Email:</label>
+        <input type="email" id="emp-email" name="emp-email"><br><br>
+
+        <label for="emp-phone">Phone Number:</label>
+        <input type="tel" id="emp-phone" name="emp-phone"><br><br>
+
+        <label for="emp-dob">Date of Birth:</label>
+        <input type="date" id="emp-dob" name="emp-dob"><br><br>
+
+        <label for="emp-id">Employee ID:</label>
+        <input type="text" id="emp-id" name="emp-id"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="emp-dept">Department:</label>
+        <select id="emp-dept" name="emp-dept">
+            <option value="">Select Department</option>
+            <option value="hr">Human Resources</option>
+            <option value="it">Information Technology</option>
+            <option value="finance">Finance</option>
+            <option value="marketing">Marketing</option>
+            <option value="sales">Sales</option>
+            <option value="admin">Administration</option>
+        </select><br><br>
+
+        <label for="emp-position">Position:</label>
+        <input type="text" id="emp-position" name="emp-position"><br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="skill-html" name="skills" value="HTML">
+        <label for="skill-html">HTML</label><br>
+
+        <input type="checkbox" id="skill-css" name="skills" value="CSS">
+        <label for="skill-css">CSS</label><br>
+
+        <input type="checkbox" id="skill-js" name="skills" value="JavaScript">
+        <label for="skill-js">JavaScript</label><br>
+
+        <input type="checkbox" id="skill-java" name="skills" value="Java">
+        <label for="skill-java">Java</label><br>
+
+        <input type="checkbox" id="skill-python" name="skills" value="Python">
+        <label for="skill-python">Python</label><br><br>
+
+        <input type="button" value="Submit" onclick="alert('Employee registration submitted!');"><br><br>
+    </form>
+</fieldset>
+
+</body>
+</html>
